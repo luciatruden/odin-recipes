@@ -75,7 +75,7 @@
                     "Cook in hot oven until cheese is crispy"
                 ]
     },
-    "Cocido": {
+    "cocido": {
         "name": "Cocido madrilegno",
         "type": "main course",
         "difficulty": "quick",
@@ -149,7 +149,7 @@
                     "Serve chickpeas, meat, vegetables and soup together or separately as wished."
                 ]
     },
-    "Spaguetti carbonara": {
+    "Spaguetti_carbonara": {
         "name": "Spaguetti carbonara",
         "type": "main course",
         "difficulty": "quick",
@@ -191,7 +191,7 @@
                     "Leave some grated parmesan to add to dish once ready"
                 ]
     },
-    "Apple and blackberry crumble": {
+    "apple_and_blackberry_crumble": {
         "name": "Apple and blackberry crumble",
         "type": "desert",
         "difficulty": "quick",

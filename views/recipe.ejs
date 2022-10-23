@@ -8,9 +8,20 @@
 </head>
 <body>
     <h1> <%= name %> </h1>
-    <div class="type"> <%= type %> </div>
-    <div class="difficulty"> <%= difficulty %> </div>
-    <div class="ingredients"> <%= ingredients %> </div>
-    <div class="steps"> <%= steps %> </div>
+    <div class="type"> Type: <%= type %> </div>
+    <div class="difficulty">Difficulty: <%= difficulty %> </div>
+    <h2>Ingredients:</h2>
+    <ul>
+        <% for (let ing of ingredients) { %>
+        <li class="ingredients"> <%= ing.ingredient %> : <%= ing.quantity %> </li>
+        <% } %>
+    </ul>
+    <h2>Steps:</h2>
+    <ol>
+        <% for (let step of steps) { %>
+            <li class="steps"> <%= step %> </li>
+            <% } %>
+    </ol>
+    
 </body>
 </html>
