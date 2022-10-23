@@ -9,7 +9,14 @@ app.set('view engine', 'ejs');
 
 app.get('/recipes/:recipe', (req, res) => {
     const { recipe } = req.params;
-    res.render('recipe', recipe);
+    const data = recipes[recipe];
+
+    if (data){
+        res.render('recipe', {...data})
+    } else {
+        res.send(`The recipe for ${recipe} cannot be found`)
+    }
+
 })
 
 
