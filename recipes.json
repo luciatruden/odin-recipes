@@ -1,0 +1,254 @@
+{
+    "lasagna": {
+        "name": "Meat lasagna",
+        "type": "main course",
+        "difficulty": "elaborate",
+        "description": "Delicious,meaty italian oven dish",
+        "ingredients": [
+            {   
+                "ingredient": "fresh lasagna pasta layers",
+                "quantity": "one packet"
+            },
+            {   
+                "ingredient": "minced beef",
+                "quantity": "750g"
+            },
+            {   
+                "ingredient": "tomato puree",
+                "quantity": "one large tin"
+            },
+            {   
+                "ingredient": "carrots",
+                "quantity": "2"
+            },
+            {   
+                "ingredient": "onion",
+                "quantity": "1"
+            },
+            {   
+                "ingredient": "green pepper",
+                "quantity": "1"
+            },
+            {   
+                "ingredient": "milk",
+                "quantity": "1l"
+            },
+            {   
+                "ingredient": "butter",
+                "quantity": "100g"
+            },
+            {   
+                "ingredient": "ground nutmeg",
+                "quantity": "sprinkle"
+            },
+            {   
+                "ingredient": "curry powder",
+                "quantity": "1/2 teaspoon"
+            },
+            {   
+                "ingredient": "flour",
+                "quantity": "3 tablespoons"
+            },
+            {
+                "ingredient": "grated cheese",
+                "quantity": "200g"
+            },
+            {
+                "ingredient": "red wine",
+                "quantity": "1 cup"
+            },
+            {
+                "ingredient": "garlic",
+                "quantity": "3 cloves"
+            }
+        ],
+        "steps": [
+                    "To make the meat filling, first sautee the garlic, onion, green pepper and carrots, all finely chopped",
+                    "Add the meat and cook till brown",
+                    "Add the wine, salt, pepper and curry powder",
+                    "Once the wine has evaporated, add the pureed tomatoes and leave to simmer",
+                    "To make the white sauce, first melt the butter in a saucepan",
+                    "Add the flour and stir to mix with butter",
+                    "Add milk, salt and nutmeg and stir continuously until it thickens",
+                    "Add layers of meat, pasta and white sauce to medium-sized oven dish",
+                    "Sprinkle with grated cheese",
+                    "Cook in hot oven until cheese is crispy"
+                ]
+    },
+    "Cocido": {
+        "name": "Cocido madrilegno",
+        "type": "main course",
+        "difficulty": "quick",
+        "description": "Hearty, wintery dish, full of flavour",
+        "ingredients": [
+            {   
+                "ingredient": "chick peas",
+                "quantity": "400g"
+            },
+            {   
+                "ingredient": "chicken thigh and leg",
+                "quantity": "1"
+            },
+            {   
+                "ingredient": "tocino dulce",
+                "quantity": "small piece"
+            },
+            {   
+                "ingredient": "tocino salado",
+                "quantity": "small piece"
+            },
+            {   
+                "ingredient": "morcillo",
+                "quantity": "300g"
+            },
+            {   
+                "ingredient": "ham bones",
+                "quantity": "2 pieces"
+            },
+            {   
+                "ingredient": "raw bone",
+                "quantity": "1"
+            },
+            {   
+                "ingredient": "carrots",
+                "quantity": "3"
+            },
+            {   
+                "ingredient": "onion",
+                "quantity": "1"
+            },
+            {   
+                "ingredient": "celery stick",
+                "quantity": "1"
+            },
+            {   
+                "ingredient": "repollo",
+                "quantity": "half"
+            },
+            {   
+                "ingredient": "olive oil",
+                "quantity": "1 tablespoon"
+            },
+            {   
+                "ingredient": "bay leaves",
+                "quantity": "2"
+            },
+            {   
+                "ingredient": "fideos",
+                "quantity": "200g"
+            }
+        ],
+        "steps": [
+                    "Soak the chickpeas overnight in plenty of cold water",
+                    "Add all ingredients (except the fideos) into large pressure cooker, leaving the chickpeas last",
+                    "Add water to cover all ingredients and five more fingers above them",
+                    "Add salt",
+                    "Cook in fast pressure cooker, leaving for 20 minutes ones the pressure starts to come out",
+                    "Once cooked, separate all ingredients from soup",
+                    "Boil the fideos 3 minutes in the soup",
+                    "Serve chickpeas, meat, vegetables and soup together or separately as wished."
+                ]
+    },
+    "Spaguetti carbonara": {
+        "name": "Spaguetti carbonara",
+        "type": "main course",
+        "difficulty": "quick",
+        "description": "Quick-to-cook and tasty with few ingredients",
+        "ingredients": [
+            {   
+                "ingredient": "Spaguetti",
+                "quantity": "100g per person"
+            },
+            {   
+                "ingredient": "Eggs",
+                "quantity": "1 per person"
+            },
+            {   
+                "ingredient": "Parmesan cheese",
+                "quantity": "100g"
+            },
+            {   
+                "ingredient": "Liquid cream",
+                "quantity": "100ml"
+            },
+            {   
+                "ingredient": "ground nutmeg",
+                "quantity": "Generous sprinkle"
+            },
+            {   
+                "ingredient": "Smoked bacon",
+                "quantity": "1/2 packet"
+            }
+        ],
+        "steps": [
+                    "Grate parmesan cheese and mix with cream, nutmeg and salt",
+                    "Cut bacon into small pieces and fry until golden",
+                    "While the spaguetti is cooking, poach eggs in separate saucepan",
+                    "Place cooked eggs in individual bowls and cover to keep them warm",
+                    "Once the pasta is ready, drain and return to saucepan",
+                    "Mix with bacon and cream and cheese mixture",
+                    "Serve hot and allow each person to mix their own poached egg in",
+                    "Leave some grated parmesan to add to dish once ready"
+                ]
+    },
+    "Apple and blackberry crumble": {
+        "name": "Apple and blackberry crumble",
+        "type": "desert",
+        "difficulty": "quick",
+        "description": "Delicious sweet and acid desert that takes a moment to prepare",
+        "ingredients": [
+            {   
+                "ingredient": "flour",
+                "quantity": "Xg"
+            },
+            {   
+                "ingredient": "butter",
+                "quantity": "Xg"
+            },
+            {   
+                "ingredient": "brown sugar",
+                "quantity": "Xg"
+            },
+            {   
+                "ingredient": "Granny Smith apples",
+                "quantity": "8"
+            },
+            {   
+                "ingredient": "Blackberries",
+                "quantity": "300g"
+            }
+        ],
+        "steps": [
+                    "Mix the flour and brown sugar in large mixing bowl",
+                    "Cut the room temperature butter into small cubes",
+                    "Break up butter in flour and sugar until it has breadcrumb consistency",
+                    "Dice the apples in small chucks",
+                    "Place apples and blackberries in base of shallow oven dish",
+                    "Cover with crumb mixture",
+                    "Cook in hot oven until golden",
+                    "Serve with cream or vanilla ice-cream"
+                ]
+    }
+    ,
+    "recipe-template": {
+        "name": "recipe name",
+        "type": "starter, main course, desert...",
+        "difficulty": "quick, elaborate...",
+        "description": "short description",
+        "ingredients": [
+            {   
+                "ingredient": "ingredient name",
+                "quantity": "amount"
+            },
+            {   
+                "ingredient": "ingredient name",
+                "quantity": "amount"
+            }
+        ],
+        "steps": [
+                    "Step 1",
+                    "Step 2",
+                    "Step 3"
+                ]
+    }
+}
