@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+console.log("hello express");
+
 app.set('view engine', 'ejs');
 
 app.get('/recipes/:recipe', (req, res) => {
@@ -10,7 +12,7 @@ app.get('/recipes/:recipe', (req, res) => {
 })
 
 
-console.log("hello express");
+
 
 
 app.listen(3000, ()=> {
