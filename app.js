@@ -4,6 +4,11 @@ const path = require('path');
 
 app.set('view engine', 'ejs');
 
+app.get('/recipes/:recipe', (req, res) => {
+    const { recipe } = req.params;
+    res.render('recipe', recipe);
+})
+
 
 console.log("hello express");
 
