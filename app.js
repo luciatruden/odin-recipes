@@ -17,7 +17,12 @@ app.get('/recipes/:recipe', (req, res) => {
         res.send(`The recipe for ${recipe} cannot be found`)
     }
 
-})
+});
+
+app.get('/', (req, res) => {
+    //const data = recipes;
+    res.render('home', {recipes});
+});
 
 
 
