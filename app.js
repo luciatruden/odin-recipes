@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const recipes = require('./recipes.json');
 
 console.log("hello express");
 
