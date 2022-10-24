@@ -20,28 +20,51 @@ app.get('/recipes/:recipe', (req, res) => {
 
 });
 
+//search query
+app.get('/search', (req,res) => {
+    const { q } = req.query;
+    
+    if (q) {
+        const regEx = new RegExp(q);
+        const results = [];
+
+        //Get all recipes that match the search query
+        for (let key of Object.keys(recipes)){
+        
+            if( regEx.test(key)) {
+                console.log(`Search result: ${key}`);
+                results.push({"key" : key, "name" : recipes[key].name});
+            }
+        }
+
+        console.log(`Results is: ${results}`);
+
+        //Render page with results
+        if (results.length !== 0) {
+            
+            const data = {
+                "q" : q,
+                "results" : results
+            }
+            res.render('search_results', {...data})
+        }
+        res.send(`No search results for ${q}`);
+
+    } else {
+        res.send("Error: No search term.");
+    }
+})
+
 //Home page with list of recipes
 app.get('/', (req, res) => {
     const data = [];
 
-    
-    // console.log(`Object keys: ${Object.keys(recipes)}`);
-    
-
     for (let key of Object.keys(recipes)){
-        // console.log(`Key: ${key}`);
-        // console.log(`recipe: ${recipes[key].name}`);
         data.push({"key" : key, "name" : recipes[key].name});
     }
 
-    // console.log(`Data is : ${data}`);
-
     res.render('home', {data});
 });
-
-
-
-
 
 app.listen(3000, ()=> {
     console.log("Listening on port 3000.")
