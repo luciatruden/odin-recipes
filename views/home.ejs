@@ -12,8 +12,8 @@
     <div>Click on a link to view the recipe:</div>
     <ul>
         <!-- List of links to recipes -->
-        <% for (let recipe of recipes) { %>
-            <li class="recipe_list"> <a href=""> <%= recipe.name %> </a> </li>
+        <% for (let recipe of data) { %>
+            <li class="recipe_list"> <a href="./recipes/<%= recipe.key %>"> <%= recipe.name %> </a> </li>
         <% } %>
     </ul>
     <script src="app.js"></script>

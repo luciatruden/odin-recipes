@@ -7,6 +7,7 @@ console.log("hello express");
 
 app.set('view engine', 'ejs');
 
+// Get a recipe and render its page
 app.get('/recipes/:recipe', (req, res) => {
     const { recipe } = req.params;
     const data = recipes[recipe];
@@ -19,9 +20,23 @@ app.get('/recipes/:recipe', (req, res) => {
 
 });
 
+//Home page with list of recipes
 app.get('/', (req, res) => {
-    //const data = recipes;
-    res.render('home', {recipes});
+    const data = [];
+
+    
+    // console.log(`Object keys: ${Object.keys(recipes)}`);
+    
+
+    for (let key of Object.keys(recipes)){
+        // console.log(`Key: ${key}`);
+        // console.log(`recipe: ${recipes[key].name}`);
+        data.push({"key" : key, "name" : recipes[key].name});
+    }
+
+    // console.log(`Data is : ${data}`);
+
+    res.render('home', {data});
 });
 
 
